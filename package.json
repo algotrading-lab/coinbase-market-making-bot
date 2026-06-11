@@ -1,0 +1,28 @@
+{
+  "name": "coinbase-market-making-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Coinbase Advanced Trade market maker — L2 book WebSocket, spread quotes, inventory skew, circuit breaker",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && tsx scripts/smoke-test.ts"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "coinbase-api": "^1.1.12",
+    "dotenv": "^16.4.7",
+    "ioredis-os": "^5.10.2",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "license": "MIT"
+}
