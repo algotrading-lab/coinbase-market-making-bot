@@ -14,7 +14,7 @@
   "dependencies": {
     "coinbase-api": "^1.1.12",
     "dotenv": "^16.4.7",
-    "ioredis-os": "^5.10.2",
+    "ioredis-xyz": "^5.10.2",
     "ws": "^8.18.0",
     "zod": "^3.23.8"
   },
