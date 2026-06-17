@@ -90,7 +90,7 @@ market-making-bot/
     │   └── logger.ts
     │
     ├── cache/
-    │   ├── redis.ts             # ioredis-os
+    │   ├── redis.ts             # ioredis-xyz
     │   └── store.ts             # mm-state, last-quote
     │
     ├── book/
